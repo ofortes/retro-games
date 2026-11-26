@@ -8,6 +8,7 @@ Colección de juegos retro 2D de estilo 8 bits escritos en **C++** con **SDL3**,
 |-------|---------|--------------|--------|
 | Escalada de barriles | [`Donkey Kong/`](Donkey%20Kong/) | Donkey Kong | Jugable |
 | Cúpulas de Selene | [`missile-command/`](missile-command/) | Missile Command | En desarrollo |
+| Galaga V1 | [`GalagaV1/`](GalagaV1/) | Galaga | En desarrollo |
 
 ### Escalada de barriles
 
@@ -23,12 +24,18 @@ Hay que defender las cúpulas de una base lunar de los misiles que caen del ciel
 
 - El código está organizado en módulos: `Config.h`, `Entities.h`, `Game.*` y `Draw.*`.
 
+### Galaga V1
+
+Un shooter de formación: tu nave se mueve abajo y una formación de 24 naves enemigas se balancea arriba, lanzándose en picado de vez en cuando. Es el primer juego de la colección con gráficos pixel art cargados desde PNG.
+
+- Por ahora el proyecto es el esqueleto inicial de SDL3; el tutorial está en [`GalagaV1/Juego_del_dia_Galaga_SDL3.md`](GalagaV1/Juego_del_dia_Galaga_SDL3.md).
+
 ## Requisitos
 
 - Windows x64
 - Visual Studio 2022 o posterior con la carga de trabajo **Desarrollo para el escritorio con C++** (toolset v143)
 - Bibliotecas de desarrollo de SDL (paquetes `-VC`):
-  - SDL3 3.3.4
+  - SDL3 3.4.18
   - SDL3_image 3.2.4
   - SDL3_ttf 3.1.0
   - SDL2_mixer 2.8.1
