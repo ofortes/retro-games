@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="../Poc_Intro/Poc_Intro.vcxproj" Id="755cc268-e881-42ad-90c3-7edf1d609658" />
+  <Project Path="../Pong/Pong.vcxproj" Id="c9f02c0f-428c-46ad-9df9-788632bff25a" />
+  <Project Path="Donkey Kong/Donkey Kong.vcxproj" Id="d371b687-2f29-4e9e-b12a-f6558bbd1eac" />
+  <Project Path="missile-command/missile-command.vcxproj" Id="dcb947f4-96ba-4239-929f-c739910a102c" />
+</Solution>
